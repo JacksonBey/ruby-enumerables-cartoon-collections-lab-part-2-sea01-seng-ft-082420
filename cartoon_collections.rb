@@ -30,7 +30,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.map do |calls|
     i = 0
     while valid_calls.length > i
-      if calls === validcalls[i]
+      if calls === valid_calls[i]
         return calls
       else
         i +=1
